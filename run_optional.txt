@@ -1,0 +1,13 @@
+
+run recog:
+python recognize_faces_cam.py
+
+note :
+sebelum di jalankan program pengenalan wajah, beri command komentar pada code http post request beserta api nya
+
+
+Train (untuk training user baru):
+1. buat folder dengan nama user di dalam folder dataset
+2. masukan foto wajah user di dalam folder dengan nama user
+3. jalankan perintah dibawah ini di terminal:
+    python encode_faces.py --dataset dataset --encodings encodings.pickle
